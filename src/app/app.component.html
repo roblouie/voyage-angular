@@ -1,0 +1,23 @@
+<md-sidenav-container fullscreen>
+  <md-sidenav #start mode="side">
+    MENU
+  </md-sidenav>
+
+  <!-- primary content -->
+
+<md-toolbar color="primary">
+  <span>First Row</span>
+  <button md-button (click)="start.toggle()">Open Side Drawer</button>
+</md-toolbar>
+
+<h1>
+  {{title}}
+</h1>
+
+<button md-raised-button>
+  Angular Material works!
+  <md-icon>done</md-icon>
+</button>asdf
+
+
+</md-sidenav-container>
